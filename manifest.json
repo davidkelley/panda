@@ -1,0 +1,22 @@
+{
+  "manifest_version": 2,
+
+  "name": "@@title",
+
+  "version": "@@version",
+
+  "description": "@@description",
+
+  "offline_enabled": true,
+
+  "minimum_chrome_version": "25",
+
+  "app": {
+    "background": {
+      "scripts": [ "libs.js", "application.js", "main.js" ]
+    }
+  },
+
+  "permissions": [ "system.memory", "system.cpu" ]
+
+}

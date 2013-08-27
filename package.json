@@ -1,0 +1,27 @@
+{
+	"name": "panda",
+	"title": "Panda",
+	"description": "Panda is a Chrome Extension that provides an API for accessing system information.",
+	"version": "0.0.1",
+	"homepage": "https://github.com/davidkelley/panda",
+	"author": {
+		"name": "David Kelley",
+		"url": "https://github.com/davidkelley/panda/blob/master/AUTHORS.txt"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/davidkelley/panda.git"
+	},
+	"dependencies": {},
+	"devDependencies": {
+		"grunt": "~0.4.1",
+		"grunt-coffeelint": "~0.0.7",
+		"grunt-contrib-concat": "~0.3.0",
+		"grunt-contrib-clean": "~0.4.0",
+		"grunt-contrib-coffee": "~0.7.0",
+		"grunt-contrib-copy": "~0.4.0",
+		"grunt-contrib-requirejs": "~0.4.1",
+		"grunt-contrib-uglify": "~0.2.2",
+		"grunt-replace": "~0.4.4"
+	}
+}

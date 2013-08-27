@@ -1,0 +1,16 @@
+{
+  "name": "panda",
+  "version": "0.0.1",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "build",
+    "tests"
+  ],
+  "dependencies": {
+    "requirejs": "2.1.8",
+    "smoothie": "https://github.com/joewalnes/smoothie.git"
+  }
+}
