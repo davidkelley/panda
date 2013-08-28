@@ -117,6 +117,17 @@ module.exports = (grunt) ->
         ]
       }
     }
+
+    watch: {
+      coffeescript: {
+        files: [ 'src/**/*.coffee' ],
+        tasks: [ 'coffeelint:build', 'coffee:build', 'uglify:build', 'requirejs:build' ]
+      },
+      manifest: {
+        files: [ 'package.json', 'manifest.json' ],
+        tasks: [ 'replace' ]
+      }
+    }
   }
 
   #load npm tasks
@@ -128,6 +139,7 @@ module.exports = (grunt) ->
     'contrib-copy',
     'contrib-requirejs',
     'contrib-uglify', 
+    'contrib-watch',
     'replace'
   ]
 
